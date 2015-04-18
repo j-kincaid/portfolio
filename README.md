@@ -1,2 +1,1 @@
-# art
-I'm an artist learning to code. This is my first simple gallery website.
+Hello! My name is Jessica Kincaid and my education is primarily in Fine Art, although I obtained an Interactive Media Certificate in 2002. I am pleased to share my work as I update my coding skills.  
