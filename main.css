@@ -1,0 +1,279 @@
+/*********************************
+GENERAL
+*********************************/
+
+body {
+  font-family: 'PT-Sans', sans-serif;
+}
+
+#wrapper {
+  max-width: 940px;
+  margin: 0 auto;
+  padding: 0 5%;
+  background: #ddd;
+  color: #275961;
+}
+
+#logo {
+  text-align: center;
+  margin: 0;
+  color: #275961;
+}
+
+a {
+  text-decoration: none;
+}
+
+img {
+  max-width: 100%;
+}
+
+
+header {
+  float: left;
+  margin: 0 0 30px 0;
+  padding: 5px 0 0 0;
+  width: 100%
+}
+
+h3 {
+  margin: 0 0 1em 0;
+}
+
+
+/*********************************
+HEADING
+*********************************/
+
+header {
+  float: left;
+  margin: 0 0 30px 0;
+  padding: 5px 0 0 0;
+  width: 100%
+}
+
+#logo {
+  text-align:center;
+  margin: 0;
+  color: #275961;
+}
+
+  
+h1 {
+  font-family: 'PT Sans', sans-serif;
+  margin: 15px 0;
+  font-size: 2.5em;
+  font-weight: normal;
+  line-height: 0.8em;
+  color: #275961;
+}
+
+h2 {
+    font-size: 2.00em;
+    font-weight: normal;
+    padding: 10px 0;
+    margin: 20px 0 0;
+    color: #275961;
+  }
+
+/*********************************
+NAVIGATION
+*********************************/
+
+
+nav {
+  text-align: center;
+  padding: 10px 0;
+  margin: 20px 0 0;
+}
+
+nav ul {
+  list-style: none;
+  margin: 0 10px;
+  padding: 0;
+}
+
+/*********************************
+ Our links are in line
+*********************************/
+
+nav li {
+  display: inline-block;
+}
+
+/*********************************
+  more space around our links
+*********************************/
+
+nav a {
+  font-weight: 800;
+  padding: 15px 10px;
+}
+  
+/*********************************
+  FOOTER
+*********************************/
+
+footer {
+  font-size: 0.75em;
+  text-align: center;
+  color: #bbb;
+  clear: both;
+  padding-top: 50px;
+}
+
+.social-icon {
+    width: 20px;
+    height: 20px;
+  /* 0 top and bottom 5 left and right */
+    margin: 0 5px;
+    clear: both;
+  }
+
+footer {
+  color: #888;
+}
+/*********************************
+PAGE: PORTFOLIO
+*********************************/
+
+.statement-title {
+  font-size: 1.5em;
+  color: #B88A00
+  text-align: center;
+}
+
+p {
+  display: inline-block;
+  font-size: 1.0em;
+  text-align: center;
+}
+
+#gallery {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+#gallery li {
+  float: left;
+  width: 45%;
+  margin: 2.5%;
+  background-color: #aaa;
+  color: #bdc3c7;
+}
+
+#gallery li a p {
+  margin: 0;  
+  padding: 5%;
+  font-size: 0.75em;
+  color: #888;
+}
+
+#gallery {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+#gallery li {
+  float: left;
+  width: 45%;
+  margin: 2.5%;
+}
+
+#gallery li {
+  background-color: #ddd;
+  color: #275961;
+}
+
+/*********************************
+PAGE: ABOUT
+*********************************/
+
+.profile-photo {
+    clear: both;
+    display: block;
+    max-width: 150px;
+    margin: 0 auto 30px;
+    border-radius: 100%;
+}
+  
+/*********************************
+PAGE: CONTACT
+*********************************/
+
+.contact-info {
+  font-size: 0.9em;
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  color: #aaa;
+}
+
+.contact-info a {
+  display: block;
+  min-height: 20px;
+  background-repeat: no-repeat;
+  background-size: 20px 20px;
+  padding: 0 0 0 30px;
+  margin: 0 0 10px;
+  color: #999
+}
+
+.contact-info li.phone a {
+  background-image: url('../img/phone.png');
+}
+
+.contact-info li.mail a {
+  background-image: url('../img/mail.png');
+}
+
+.contact-info li.twitter a {
+  background-image: url('../img/twitter.png');
+}
+
+.contact-info li.facebook a {
+  background-image: url('../img/facebook.png');
+}
+
+
+/*********************************
+COLORS
+*********************************/
+
+body {
+    background color: #fff;
+}
+
+/*light green header*/
+
+header {
+  background: #c3c7c1
+  border-color: #dfffff;
+}    
+
+/*nav background on mobile */
+nav {
+  background: #fff9ff;
+}
+
+/* logo text */
+
+h1, h2 {
+    color: #275961;
+}
+
+/* links */
+
+a {
+  color: #275961
+
+/* nav link */
+nav a, nav a: visited {
+      color: #275961;
+}
+
+nav a. selected, nav a:hover {
+  color: #275961;
+}
